@@ -1,0 +1,9 @@
+adj1 = input("Tell me your 1st adjective and press Enter: ")
+adj2 = input("Tell me your 2nd adjective and press Enter: ")
+noun1 = input("Tell me your 1st noun and press Enter: ")
+noun2 = input("Tell me your 2nd noun and press Enter: ")
+
+print("Roses are " + adj1)
+print(noun1 + " are blue")
+print(noun2 + " is " + adj2)
+print("And so are you!! :)")
