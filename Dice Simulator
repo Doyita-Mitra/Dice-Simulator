@@ -1,0 +1,16 @@
+import random
+
+min = 1
+max = 6
+
+roll_dice = "yes"
+
+while roll_dice=="yes" or "Yes" or "y":
+    print("Dice rolling...")
+    print(f"The value is: {random.randint(min,max)}")
+    
+    roll_dice=input("Roll the dice again? ")
+    
+    if roll_dice=="":
+        print("Game's over!!")
+        break
