@@ -1,3 +1,3 @@
-# Dice-Simulator
+# Beginner Projects
 
-This is a simple python program that simulates rolling dice.
+Simple Python projects
