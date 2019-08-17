@@ -1,0 +1,34 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# Created on Aug 17, 2019
+# @author: Doyita Mitra
+
+"""This program will ask the user for statements, until a particular input is blank."""
+
+def sentence(phrase):
+
+#if there is a question statement that starts with these words, it should have a question mark at the end
+
+    interrogatives = ("how", "where", "what", "why")
+
+#capitalize the begininning of each sentence
+
+    cap = phrase.capitalize()
+
+    if phrase.startswith(interrogatives):
+        return "{}?".format(cap)
+    else:
+        return "{}".format(cap)
+
+complete = []
+
+while True:
+    user_input = input("Say something: ")
+    if user_input == "":
+        break
+    else:
+        complete.append(sentence(user_input))
+
+print(". ".join(complete))
+     
