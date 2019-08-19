@@ -4,10 +4,16 @@
 # Created on Aug 18, 2019
 # @author: Doyita Mitra
 
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# Created on Aug 18, 2019
+# @author: Doyita Mitra
+
 import json
 from difflib import get_close_matches
 
-data = json.load(open("data.json"))
+data = json.load(open("/Users/doyitamitra/Downloads/data.json"))
 
 def translate(word):
     word = word.lower()
