@@ -7,7 +7,7 @@
 import json
 from difflib import get_close_matches
 
-data = json.load(open("/Users/doyitamitra/Downloads/data.json"))
+data = json.load(open("data.json"))
 
 def translate(word):
     word = word.lower()
