@@ -1,3 +1,3 @@
-# Beginner Projects
+# Projects
 
 Simple Python projects
