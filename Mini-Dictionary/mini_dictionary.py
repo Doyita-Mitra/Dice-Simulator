@@ -4,12 +4,6 @@
 # Created on Aug 18, 2019
 # @author: Doyita Mitra
 
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-# Created on Aug 18, 2019
-# @author: Doyita Mitra
-
 import json
 from difflib import get_close_matches
 
